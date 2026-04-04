@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цвет фона</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="task">
+        <h1 id="title">Смена фона</h1>
+        <button onclick="changeBg()">Сменить фон</button>
+    </div>
+    <div class="task">
+        <h1>Светофор</h1>
+        <div class="traffic">
+            <div class="light red" id="red"></div>
+            <div class="light yellow" id="yellow"></div>
+            <div class="light green" id="green"></div>
+        </div>
+        <div class="msg" id="msg">Жду сигнал</div>
+        <button onclick="trafficLight()">Выбрать цвет</button>
+    </div>
+
+    <script src="./java.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding: 50px;
+    transition: 0.3s;
+}
+
+.task {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 500px;
+    background: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #4C6FFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.traffic {
+    width: 120px;
+    background: #333;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background: #555;
+}
+
+.red.active { background: red; }
+.yellow.active { background: yellow; }
+.green.active { background: green; }
+
+.msg {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
